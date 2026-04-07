@@ -13,9 +13,9 @@ This document outlines how "Utilization" is calculated for each product listed i
 | **F5 Kitchen Display System (KDS)** | Ratio of orders sent to the KDS versus the total number of orders processed. |
 | **F5 Customer Display App** | Percentage of days with sales where the Customer Display System (CDS) processed at least one order. |
 | **F5 Waiter App** | Percentage of days with sales where the Waiter App was used to process at least one payment. |
-| **Online - Website** | Share of active "Online" days (Web/App/Kiosk) where at least one order was placed via the Website. |
-| **Online - Mobile App** | Share of active "Online" days (Web/App/Kiosk) where at least one order was placed via the Mobile App. |
-| **Online - Kiosk** | Share of active "Online" days (Web/App/Kiosk) where at least one order was placed via the Kiosk. |
+| **Online - Website** | **Web Share**: Percentage of days with at least one Website order relative to total days with ANY online activity (Web+App+Kiosk). |
+| **Online - Mobile App** | **App Share**: Percentage of days with at least one Mobile App order relative to total days with ANY online activity (Web+App+Kiosk). |
+| **Online - Kiosk** | **Kiosk Share**: Percentage of days with at least one Kiosk order relative to total days with ANY online activity (Web+App+Kiosk). |
 
 > [!NOTE]
 > Products marked with `0` in the SQL (e.g., Timed Events, Marketplace) currently do not have an automated utilization metric defined in this specific query.

@@ -19,10 +19,10 @@ SELECT 'F5 Customer Display App', 'Percentage of days with sales where the Custo
 UNION ALL
 SELECT 'F5 Waiter App', 'Percentage of days with sales where the Waiter App was used to process at least one payment.'
 UNION ALL
-SELECT 'Online - Website', 'Share of active "Online" days (Web/App/Kiosk) where at least one order was placed via the Website.'
+SELECT 'Online - Website', 'Web Share: Percentage of days with at least one Website order relative to total days with ANY online activity (Web+App+Kiosk).'
 UNION ALL
-SELECT 'Online - Mobile App', 'Share of active "Online" days (Web/App/Kiosk) where at least one order was placed via the Mobile App.'
+SELECT 'Online - Mobile App', 'App Share: Percentage of days with at least one Mobile App order relative to total days with ANY online activity (Web+App+Kiosk).'
 UNION ALL
-SELECT 'Online - Kiosk', 'Share of active "Online" days (Web/App/Kiosk) where at least one order was placed via the Kiosk.'
+SELECT 'Online - Kiosk', 'Kiosk Share: Percentage of days with at least one Kiosk order relative to total days with ANY online activity (Web+App+Kiosk).'
 
 ORDER BY "Product Name" ASC;
